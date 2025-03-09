@@ -17,7 +17,7 @@ const openai = new OpenAIApi(configuration);
 const response = await openai.createChatCompletion({
   model: 'gpt-3.5-turbo', // или другая модель
   messages: [{ role: 'user', content: text }],
-  max_tokens: 2000,
+  max_tokens: 3000,
 });
 
 const reply = response.data.choices[0].message?.content.trim() || '';
