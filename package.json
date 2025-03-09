@@ -21,6 +21,6 @@
   },
   "devDependencies": {
     "@vercel/node": "^2.14.3"
-     "openai": "^3.2.1",
+     "openai": "^3.2.1"
   }
 }
